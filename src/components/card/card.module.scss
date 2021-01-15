@@ -1,0 +1,100 @@
+.image{
+    position: relative;
+    box-sizing: border-box;
+    margin: 10px 10px 0 0;
+width: 22%;
+height: 413px;
+cursor: pointer;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.image__img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.image:hover .image__overlay{
+    opacity: 0.9;
+   
+}
+
+
+
+.image__overlay{
+    position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+display: flex;
+align-items:flex-end;
+left: 0;
+opacity: 0;
+transition: opacity 0.25s;
+background: #83BCC5;
+
+/* or 18px */
+
+
+}
+.image_text{
+    width: 50%;
+   margin-left: 20px;
+font-family: Poppins;
+font-style: normal;
+z-index: 1000;
+color: #ffffff;
+font-weight: normal;
+font-size: 14px;
+line-height: 130.8%;
+}
+.image__overlay--primary {
+    
+    opacity: 0.5;
+}
+
+.image__overlay > * {
+    transform: translateX(20px);
+    transition: transform 0.25s;
+}
+
+
+
+.image__overlay:hover > * {
+    transform: translateY(0)
+}
+
+
+.cardFlex{
+    display: flex;
+}
+
+.cardFlex div{
+    width: 250px;
+    height: 250px;
+  
+    margin: 10px;
+}
+
+@media(max-width:767px){
+    .cardFlex div{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+@media(max-width:700px){
+    .image{
+        width: 48%;
+        max-width: 45%;
+        height: 350px;
+    }
+}
+
+@media(max-width:550px){
+    .image{
+        
+        height: 250px;
+    }
+}

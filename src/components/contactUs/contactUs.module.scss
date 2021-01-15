@@ -1,0 +1,38 @@
+.contactUs_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contactUs_section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50%;
+    flex-direction: row;
+}
+
+
+
+.contactUs_section div{
+    margin-top: 10px;
+}
+
+.contactUs{
+    margin-top: 10px;
+}
+
+.contactUs p , .text p{
+    font-family: Poppins;
+    columns: #2E2E31;
+    font-size: 14px;
+}
+
+@media(max-width:500px){
+    .contactUs_section{
+        width: 100%;
+    }
+    .contactUs_section div{
+        width: 50%;
+    }
+   
+}

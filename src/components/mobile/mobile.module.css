@@ -1,0 +1,60 @@
+.mobileContainer{
+height: 550px;
+ left: 240px;
+
+background: #ffffff;
+box-shadow: 1px -10px 33px rgba(0, 0, 0, 0.05);
+border-top-left-radius: 49px;
+border-top-right-radius: 49px;
+}
+
+.mic{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 70px;
+    
+}
+
+.mic img{
+    margin-right: 3px;
+    margin-bottom: 15px;
+}
+
+.screen{
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url('../../assets/images/screen.png');
+    backdrop-filter: drop-shadow(8px 8px 10px #284C65);
+    display: flex;
+    padding-left: 10px;
+    color: #ffffff;
+}
+
+.screen p{
+    font-size: 12px;
+}
+
+.iconContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.iconContainer img{
+    margin-top: 5px;
+}
+
+.button{
+    width: 104px;
+    height: 31px;
+    font-size: 10px;
+}
+
+@media(min-width:900px){
+    .mobileContainer{
+        width: 370px;
+    }
+}

@@ -1,0 +1,513 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import '../../Styles/variables.scss';
+.text{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+   margin-top: 80px;
+text-align: left;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 118.8%;
+margin-bottom: 50px;
+color: $dark-bg;
+}
+
+.text h2{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 118.8%;
+/* or 59px */
+color: $dark-bg;
+}
+
+// card section scss
+
+.storyDiv{
+   max-height: 100%;
+ min-height: 812px;
+left: 0px;
+background-image: url('../../assets//images/story.png');
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.9;
+}
+
+.layer{
+    background: linear-gradient(219.38deg, rgba(24, 45, 57, 0) 16.1%, #182D39 94.12%);
+min-height: 812px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-header{
+    min-height: 812px;
+    max-height: 100%;
+   
+}
+
+.left-sec{
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-left: 30px;
+    display: flex;
+    z-index: 1;
+    margin-bottom: 70px;
+    color: $primary_color;
+}
+
+
+
+.left-sec h3 , .left-sec p ,.left-sec Button{
+    margin-left: 20%;
+}
+
+.right-sec{
+    background: #112733;
+    z-index: 1;
+opacity: 0.9;
+color:#ffffff;
+padding: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+h2{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+// featured story scss
+
+
+.featuredStories{
+    height: 812px;
+width: 35vw;
+background: #112733;
+opacity: 0.9;
+}
+
+.featured-story{
+    h1{
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 126.8%;
+        
+        
+        color: #112733;
+    }
+    p{
+        font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+line-height: 130.8%;
+/* or 18px */
+
+text-align: center;
+
+color: $para-color;
+    }
+}
+
+// download section scss
+
+.downloadDiv{
+width: 100vw;
+min-height: 633px;
+left: 0px;
+overflow: hidden;
+background: #F8F9FA;
+}
+
+.download-container{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+.mobile-container{
+
+    bottom: 0;
+
+}
+
+.download{
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.download h3{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 126.8%;
+
+
+color: #112733;
+}
+
+.download p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 130.8%;
+/* or 18px */
+
+
+color: $para-color;
+}
+
+.download img{
+    width: 180px;
+    height: 180px;
+}
+
+// SignUp section scss
+
+.signUp{
+    position: relative;
+    margin-top: 100px;
+    background: url('../../assets/images/signUp.png');
+    height: 600px;
+    max-height: 100%;
+
+}
+
+.signUp-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 100%;
+    color: $primary_color;
+}
+
+.row-signUp{
+    height: 100%;
+}
+
+
+
+
+.signUp-content h1  p{
+    width: 60%;
+}
+
+.signUp-login{
+   
+        position: absolute;
+        top: 55%;
+        right: 5%;
+        height: 100px;
+}
+
+// inspiration scss
+
+.inspirations{
+    margin-top: 80px;
+
+    h1{
+        font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+line-height: 126.8%;
+
+
+color: #112733;
+    }
+    p{
+        font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 130.8%;
+
+text-align: center;
+
+color: $para-color;
+    }
+}
+
+// Learnmore scss
+
+.learnMore{
+   
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    
+}
+
+.learnMore_content h1{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 126.8%;
+/* or 63px */
+
+margin-top: 20px;
+margin-bottom: 20px;
+color: #112733;
+}
+
+.learnMore_content p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 130.8%;
+/* or 18px */
+margin-top: 20px;
+margin-bottom: 20px;
+
+color: $para-color;
+}
+
+.learnMore_button{
+        background:#83BCC5;
+        color: $primary_color;
+}
+
+// contactUs scss
+
+.terms{
+    margin-top: 50px;
+    width: 55%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    width: 55%;
+    height: 100px;
+    .social_icons{
+            background: #83BCC5;
+            width: 60%;
+            height: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+    }
+}
+
+.social_desktop{
+    display: flex;
+    width: 100%;
+    .terms p{
+        font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: $para-color;
+    }
+    .social p{
+        margin-left: 10px;
+        font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: $para-color;
+    }
+}
+
+.social p{
+    margin-left: 10px;
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+color: $para-color;
+}
+
+.social_mobile{
+    text-align: center;
+    p{
+        font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: $para-color;
+    }
+}
+.social_mobile_icons{
+    background: #83BCC5;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 5px;
+            margin-bottom: 10px;
+}
+
+
+// responsive section scss
+
+
+@media(max-width:768px){
+    .left-sec{
+        margin-top: 80px;
+        flex-direction: column;
+        padding-left: 30px;
+        display: flex;
+        z-index: 1;
+        margin-bottom: 70px;
+        color: #ffffff;
+    }
+    .social_desktop{
+        display: none;
+    }
+    .text{
+        margin-top: 50px;
+    }
+}
+@media(min-width:769px){
+    .social_mobile{
+        display: none;
+    }
+}
+@media(max-width:780px){
+    .signUp-content p{
+        width: 280px;
+    }
+}
+@media(max-width:740px){
+    .signUp-content{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-left: 5%;
+        height: 100%;
+        color: #ffffff;
+    }
+    .signUp-content h1{
+        margin-top: 25%;
+    }
+    .signUp-content p{
+        width: 100%;
+    }
+}
+
+@media(max-width:440px){
+    .signUp-login{
+       right: 9%;
+       top: 80%;
+    }
+    .signUp{
+        height: 400px;
+    }
+    .signUp-content h1{
+        margin-top: 50%;
+        font-size: 6vw;
+    }
+    .signUp-content p{
+        font-size: 3vw;
+    }
+    .inspirations{
+        margin-top: 220px;
+    }
+    .mobile-container{
+        width: 70%;
+       
+        
+    }
+    .download-container{
+        margin-top: 50px;
+    }
+    .download{
+        justify-content: center;
+        align-items: center;
+    }
+    .download p{
+        width: 80%;
+        text-align: justify;
+    }
+    .download img{
+        width: 150px;
+        height: 150px;
+        margin: 15px;
+        margin-top: 0px;
+    }
+}
+
+@media(max-width:390px){
+    .signUp-login{
+        right: 5%;
+    }
+}
+
+@media(min-width:850px){
+    .inspirations{
+        margin-top: 120px;
+    }
+}
+
+
+@media(max-width:1012px){
+    .signUp-section .container{
+        max-width: 90%;
+    }
+}
+
+@media(max-width:767px){
+    .learnMore{
+        flex-wrap: wrap;
+        margin-top: 50px;
+        
+    }
+    .card_container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .learnMore_content{
+        width: 100%;
+        text-align: center;
+    }
+    .learnMore_content h1{
+        font-size: 5vw;
+    }
+}
+
+@media(max-width:700px){
+    .text h2{
+        font-size: 5vw;
+    }
+}

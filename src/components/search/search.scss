@@ -1,0 +1,91 @@
+
+.search{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.box input{
+    margin-left: 30px;
+}
+
+.box input::placeholder{
+    font-family: Poppins;
+}
+
+.box{
+
+    position: absolute;
+height: 88px;
+width: 8%;
+top: 722px;
+padding-right: 30px;
+display: flex;
+align-items: center;
+background: #ffffff;
+box-shadow: inset 0px -1px 0px #EBEBEB;
+
+input{
+    flex: 1;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+}
+.buttons{
+    position: absolute;
+    margin-left: 55vw;
+    height: 88px;
+    justify-content: space-between;
+    color: #ffffff;
+    font-family: Poppins;
+    top: 722px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    background:#83BCC5;
+
+}
+
+.buttons h5{
+    text-align: center;
+} 
+
+@media(max-width:1000px){
+
+}
+.preview{
+    position: absolute;
+    margin-left: 55vw;
+    height: 211px;
+   
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+    top: 511px;
+    
+   
+    width: 25vw;
+    background:#83BCC5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media(max-width:700px){
+    .buttons h5{
+        display: none;
+    }
+    .preview{
+        display: none;
+    }
+}
+
+@media(max-width:600px){
+    .box ,.buttons{
+        top:612px;
+    }
+}

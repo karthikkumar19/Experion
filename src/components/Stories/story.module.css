@@ -1,0 +1,150 @@
+ .slick-center  div{
+     width: 400px;
+}
+.imageContainer{
+    width: 90%;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background: #1F2E33;
+    opacity: 0.9;
+        margin-top: 15px;
+}
+.close{
+    position: absolute;
+    right: -50px;
+    top:0;
+}
+
+.image{
+    position: relative;
+    display: block;
+    width: 100%;
+    opacity: 0.8;
+    background-size: contain;
+    height: 100%;
+   
+
+}
+
+.content{
+    width: 90%;
+height: 100%;
+display: flex;
+flex-direction: column;
+color:white;
+transition: opacity 0.25s;
+    position: absolute;
+    color: #ffffff;
+    justify-content: flex-end;
+
+}
+
+.content p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 130.8%;
+text-align: left;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+
+.slick-list{
+    height: 100%;
+}
+
+
+
+.slick-slide.slick-center img {
+    transform: scale(1.1);
+}
+.image{
+     filter:contrast(90%);
+
+     
+}
+
+img{
+    position: relative;
+    display: block;
+   
+}
+
+.play{
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color:  #EF7061;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Photoplay{
+    position: absolute;
+    z-index: 2;
+    top:40%;
+    left: 45%;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color:  #EF7061;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:767px){
+    .Photoplay{
+       margin: auto;
+       
+    }
+}
+@media(max-width:600px){
+    .Photoplay{
+       top:15vw;
+       left:30vw;
+       
+    }
+    .close{
+        position: absolute;
+        right: -35px;
+        top:0;
+    }
+}
+
+@media(max-width:768px){
+    .play{
+        top:2vw;
+        left: 2vw;
+        width: 10vw;
+    height: 10vw;
+    border-radius: 5vw;
+    }
+
+    .text h5{
+        font-size: 2vw;
+    }
+}
+
+.text h5{
+    position: absolute;
+    z-index: 1000;
+    bottom: 0;
+    
+    margin-top: -50px;
+    left: 50px;
+    color:#ffffff;
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+}

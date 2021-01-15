@@ -1,0 +1,167 @@
+.inspirationCard{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    position: relative;
+    background: #1F2E33;
+    margin-top: 15px;
+}
+
+.inspirationCard:hover .image{
+    opacity: 0.3;
+}
+
+
+
+.content{
+    width: 90%;
+height: 100%;
+display: flex;
+flex-direction: column;
+color:white;
+transition: opacity 0.25s;
+    position: absolute;
+    color: #ffffff;
+    justify-content: flex-end;
+
+}
+
+.content p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 130.8%;
+/* identical to box height, or 13px */
+text-align: left;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.content h3{
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 108.8%;
+/* or 26px */
+
+color: #FFFFFF;
+}
+
+
+
+
+.content > * {
+    transform: translateX(20px);
+    transition: transform 0.25s;
+}
+
+
+
+
+
+
+.inspirationCard img{
+    position: relative;
+    display: block;
+    width: 100%;
+    background-size: contain;
+    height: 100%;
+    
+}
+
+.fifth{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.element3 , .element4 {
+    height: 534px;
+    width: 100px;
+    margin-right:10px;
+    width: 33%;
+    max-width: 100%;
+}
+
+.element4{
+    margin-left: 10px;
+}
+
+.element5{
+    height: 534px;
+    width: 100px;
+    margin-left:10px;
+    
+    width: 33%;
+    max-width: 100%;
+}
+
+.element1{
+    height: 376px;
+    margin-right: 10px;
+    width: 60%;
+    max-width: 100%;
+
+}
+
+.element2{
+    width: 40%;
+    height: 376px;
+    max-width: 100%;
+}
+
+.element6{
+    width: 40%;
+    height: 376px;
+    max-width: 100%;
+    margin-right: 10px;
+}
+
+.element7{
+    height: 376px;
+    width: 60%;
+    max-width: 100%;
+
+}
+
+
+.photos{
+    display: flex;
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.photos img:nth-child(2){
+    margin-left: -15px;
+}
+.photos img:nth-child(3){
+    margin-left: -15px;
+}
+
+.photo_cls{
+   position: absolute;
+   bottom: 0px;
+}
+
+.elementContainer{
+    display: flex;
+}
+
+@media(max-width:765px){
+    .elementContainer{
+        flex-wrap: wrap;
+    }
+    .element1 , .element2 , .element3 , .element4 , .element5 ,.element6 , .element7 {
+        width: 100%;
+        margin: 10px;
+        height: 360px;
+    }
+}

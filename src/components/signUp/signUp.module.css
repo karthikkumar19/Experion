@@ -1,0 +1,61 @@
+.input_container{
+    border-radius: 10px;
+    overflow: hidden;
+}
+.input_container input{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 15px;
+}
+.inputs{
+    padding: 50px;
+}
+
+.signUp_button{
+    width: 100%;
+    outline: none;
+    border: none;
+    display: flex;
+    padding: 25px;
+    background: #83BCC5;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.input_container input::placeholder{
+    font-weight: 400;
+    color: black;
+}
+.signUp_container{
+   
+    background-color: #ffffff;
+    width: 377px;
+    border-radius: 10px;
+}
+
+@media(max-width:1012px){
+    .signUp_container{
+        width: 340px;
+    }
+}
+
+@media(max-width:389px){
+    .signUp_container{
+        width: 100px;
+    }
+}
+
+@media(max-width:860px){
+    .signUp_container{
+        width: 300px;
+    }
+    .inputs{
+        padding: 20px;
+    }
+    .signUp_button{
+        padding: 18px;
+    }
+}
